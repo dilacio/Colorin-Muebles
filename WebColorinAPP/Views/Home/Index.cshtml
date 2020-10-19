@@ -1,0 +1,190 @@
+﻿@{
+    Layout = null;
+}
+<!doctype html>
+<!--
+    Fox by FreeHTML5.co
+    Twitter: https://twitter.com/fh5co
+    Facebook: https://fb.com/fh5co
+    URL: https://freehtml5.co
+-->
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Colorin Muebles</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="~/Content/css/animate.css" rel="stylesheet">
+    <link rel="stylesheet" href="~/Content/css/bootstrap.min.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="~/Content/css/style.css">
+</head>
+<body>
+    <div class="container-fluid pl-0 pr-0 bg-img clearfix parallax-window2" data-parallax="scroll" data-image-src="../Content/images/banner2.jpg">
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <div class="container">
+                <!-- Brand -->
+                <a class="navbar-brand mr-auto" href="#"><img src="~/Content/images/logo.png" alt="Colorin Muebles" style="width: 120px;" /></a>
+
+                <!-- Toggler/collapsibe Button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"> <span class="navbar-toggler-icon"></span> </button>
+
+                <!-- Navbar links -->
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"> <a class="nav-link" href="#"><b>Inicio</b></a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="#about-us"><b>Nosotros</b></a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="/Producto/Index"><b>Productos</b></a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="#contact"><b>Contacto</b></a> </li>
+                    </ul>
+                    @Html.Partial("_LoginPartial")
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="fh5co-banner-text-box">
+                <div class="quote-box pl-5 pr-5 wow bounceInRight">
+                    <h2>PRODUCTOS<br><span>CATALOGO </span> </h2>
+                </div>
+                <a href="/Producto/Index" class="btn text-uppercase btn-outline-danger btn-lg mr-3 mb-3 wow bounceInUp"> VER PRODUCTOS</a>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid fh5co-network">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h4 class="wow bounceInUp">PRODUCTOS HECHO A TU MEDIDA</h4>
+                    <h2 class="wow bounceInRight">SERVICIOS</h2>
+                    <hr />
+                    <p class="wow bounceInDown">Te ofrecemos los mejores muebles infantiles con el mejor diseño en el mercado.</p>
+                </div>
+                <div class="col-md-6">
+                    <figure class="wow bounceInDown"> <img src="../Content/images/about-img.jpg" alt="gym" class="img-fluid" style="width: 300px; height: 300px;" /> </figure>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="about-us" class="container-fluid fh5co-about-us pl-0 pr-0 parallax-window" data-parallax="scroll" data-image-src="../Content/images/about-us-bg.jpg">
+        <div class="container">
+            <div class="col-sm-6 offset-sm-6">
+                <h2 class="wow bounceInLeft" data-wow-delay=".25s">ACERCA DE NOSOTROS</h2>
+                <hr />
+                <p class="wow bounceInRight" data-wow-delay=".25s">Somos una empresa familiar, apasionados por lo que hacemos y convencidos de que nuestra mision es hacer feliz  a todos los niños a traves de nuestros productos </p>
+                <a class="btn btn-lg btn-outline-danger d-inline-block text-center mx-auto wow bounceInDown">Leer más</a>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid fh5co-content-box">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 pr-0"><img src="~/Content/images/rode-gym.jpg" alt="gym" class="img-fluid wow bounceInLeft" style="height: 428px;" /> </div>
+                <div class="col-md-7 pl-0">
+                    <div class="wow bounceInRight" data-wow-delay=".25s">
+                        <div class="card-img-overlay">
+                        </div>
+                        <img src="~/Content/images/gym-girls.jpg" alt="girls in gym" class="img-fluid" style="height: 300px;" />
+                    </div>
+                </div>
+            </div>
+            <div class="row gallery">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body mb-4 wow bounceInLeft" data-wow-delay=".25s">
+                            <h4 class="card-title">GALERIA</h4>
+                        </div>
+                        <img class="card-img-top img-fluid wow bounceInRight" data-wow-delay=".25s" src="~/Content/images/g1.jpg" alt="Card image">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top img-fluid wow bounceInUp" data-wow-delay=".25s" src="~/Content/images/g2.jpg" alt="Card image">
+                        <div class="card-body mt-4 wow bounceInDown" data-wow-delay=".25s">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body mb-4 wow bounceInRight" data-wow-delay=".25s">
+                            <h4 class="card-title">ALGUNOS DE NUESTROS PRODUCTOS</h4>
+
+                        </div>
+                        <img class="card-img-top img-fluid wow bounceInLeft" data-wow-delay=".25s" src="~/Content/images/g3.jpg" alt="Card image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container-fluid">
+        <form action="" method="post">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 footer1 d-flex wow bounceInLeft" data-wow-delay=".25s">
+                        <div class="d-flex flex-wrap align-content-center">
+                            <a href="#"><img src="~/Content/images/logo.png" alt="logo" /></a>
+                            <p>&copy; 2020 Colirin. Todos los derechos reservados<br></p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 footer2 wow bounceInUp" data-wow-delay=".25s" id="contact">
+                        <div class="form-box">
+                            <h4>Contactanos</h4>
+                            <table class="table table-responsive d-table">
+                                <tr>
+                                    <td><input type="text" class="form-control pl-0" id="txbNombre" name="txbNombre" placeholder="NOMBRE" /></td>
+                                    <td><input type="email" class="form-control pl-0" id="txbMail" name="txbMail" placeholder="MAIL" /></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2"></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2"><input type="text" class="form-control pl-0" id="txbTelefono" name="txbTelefono" placeholder="TELEFONO" /></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2"></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2"><input type="text" class="form-control pl-0" id="txbMensaje" name="txbMensaje" placeholder="MENSAJE" /></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2"></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" class="text-center pl-0"><button type="submit" class="btn btn-dark">ENVIAR</button></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="col-md-3 footer3 wow bounceInRight" data-wow-delay=".25s">
+                        <h5>UBICACIÓN</h5>
+                        <p>El Talar, Tigre. Buenos Aires </p>
+                        <h5>TELEFONO</h5>
+                        <p>11 5731-3014</p>
+                        <h5>EMAIL</h5>
+                        <p>Colorin.Muebleria@gmail.com</p>
+                        <div class="social-links">
+                            <ul class="nav nav-item">
+                                <li><a href="https://www.facebook.com/fh5co" class="btn btn-secondary mr-1 mb-2"><img src="~/Content/images/facebook.png" alt="facebook" /></a></li>
+                                <li><a href="#" class="btn btn-secondary mr-1 ml-1 mb-2"><img src="~/Content/images/facebook.png" alt="facebook" /></a></li>
+                                <li><a href="#" class="btn btn-secondary mr-1 ml-1 mb-2"><img src="~/Content/images/facebook.png" alt="facebook" /></a></li>
+                                <li><a href="#" class="btn btn-secondary ml-1 mb-2"><img src="~/Content/images/facebook.png" alt="facebook" /></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Bootstrap JS, ... -->
+
+    <script src="~/Content/js/jquery.min.js"></script>
+    <script src="~/Content/js/bootstrap.min.js"></script>
+    <script src="~/Content/js/parallax.js"></script>
+    <script src="~/Content/js/wow.js"></script>
+    <script src="~/Content/js/main.js"></script>
+
+</body>
+</html>

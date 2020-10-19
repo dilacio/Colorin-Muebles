@@ -1,0 +1,512 @@
+﻿@{
+    Layout = null;
+}
+<!doctype html>
+<!--
+    Fox by FreeHTML5.co
+    Twitter: https://twitter.com/fh5co
+    Facebook: https://fb.com/fh5co
+    URL: https://freehtml5.co
+-->
+<html lang="es-ar">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Colorin Muebles</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="~/Content/css/animate.css" rel="stylesheet">
+    <link rel="stylesheet" href="~/Content/css/bootstrap.min.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="~/Content/css/style.css">
+
+    <script src='//production-assets.codepen.io/assets/editor/live/console_runner-079c09a0e3b9ff743e39ee2d5637b9216b3545af0de366d4b9aad9dc87e26bfd.js'></script>
+    <script src='//production-assets.codepen.io/assets/editor/live/events_runner-73716630c22bbc8cff4bd0f07b135f00a0bdc5d14629260c3ec49e5606f98fdd.js'></script>
+    <script src='//production-assets.codepen.io/assets/editor/live/css_live_reload_init-2c0dc5167d60a5af3ee189d570b1835129687ea2a61bee3513dee3a50c115a77.js'></script>
+    <meta charset='UTF-8'>
+    <meta name="robots" content="noindex">
+    <link rel="shortcut icon" type="image/x-icon" href="//production-assets.codepen.io/assets/favicon/favicon-8ea04875e70c4b0bb41da869e81236e54394d63638a1ef12fa558a4a835f1164.ico" />
+    <link rel="mask-icon" type="" href="//production-assets.codepen.io/assets/favicon/logo-pin-f2d2b6d2c61838f7e76325261b7195c27224080bc099486ddd6dccb469b8e8e6.svg" color="#111" />
+    <link rel="canonical" href="https://codepen.io/nelsonleite/pen/RaGwba?depth=everything&order=popularity&page=4&q=product&show_forks=false" />
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+    <link href="~/Content/css/Productos.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="container-fluid pl-0 pr-0 bg-img clearfix parallax-window2" data-parallax="scroll" data-image-src="../Content/images/banner3.jpg">
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <div class="container">
+                <!-- Brand -->
+                <a class="navbar-brand mr-auto" href="#"><img src="~/Content/images/logo.png" alt="FoxPro" style="width: 120px;" /></a>
+
+                <!-- Toggler/collapsibe Button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"> <span class="navbar-toggler-icon"></span> </button>
+
+                <!-- Navbar links -->
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"> <a class="nav-link" href="../Home/Index"><b>Inicio</b></a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="../Home/Index#about-us"><b>Nosotros</b></a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="#"><b>Productos</b></a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="#contact"><b>Contacto</b></a> </li>
+                    </ul>
+                    @Html.Partial("_LoginPartial")
+                </div>
+            </div>
+        </nav>
+
+
+    </div>
+
+    <div class="container-fluid fh5co-content-box" style="background-color: #EEEEEE;">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <article class="card-wrapper">
+                        <div class="image-holder">
+                            <a href="#" class="image-holder__link"></a>
+                            <div class="image-liquid image-holder--original" style="background-image: url(../../Content/images/g1.jpg)">
+                            </div>
+                        </div>
+
+                        <div class="product-description">
+                            <!-- title -->
+                            <h1 class="product-description__title">
+                                <a href="#">
+                                    Mesas y sillas
+                                </a>
+                            </h1>
+
+                            <!-- category and price -->
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-8 product-description__category secondary-text">
+                                    Colores alternativos disponibles
+                                </div>
+                                <div class="col-xs-12 col-sm-4 product-description__price">
+                                    $ 2000
+                                </div>
+                            </div>
+
+                            <!-- divider -->
+                            <hr />
+
+                            <!-- sizes -->
+                            <!-- <div class="sizes-wrapper">
+                                <b>Sizes</b>
+                                <br />
+                                <span class="secondary-text text-uppercase">
+                                    <ul class="list-inline">
+                                        <li>xs,</li>
+                                        <li>s,</li>
+                                        <li>sm,</li>
+                                        <li>m,</li>
+                                        <li>l,</li>
+                                        <li>xl,</li>
+                                        <li>xxl</li>
+                                    </ul>
+                                </span>
+                            </div>!-->
+                            <!-- colors -->
+                            <div class="color-wrapper">
+                                <b>Colores</b>
+                                <br />
+                                <ul class="list-inline color-list">
+                                    <li class="color-list__item color-list__item--red"></li>
+                                    <li class="color-list__item color-list__item--blue"></li>
+                                    <li class="color-list__item color-list__item--green"></li>
+                                    <li class="color-list__item color-list__item--orange"></li>
+                                    <li class="color-list__item color-list__item--purple"></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </article>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <article class="card-wrapper">
+                        <div class="image-holder">
+                            <a href="#" class="image-holder__link"></a>
+                            <div class="image-liquid image-holder--original" style="background-image: url(../../Content/images/g2.jpg)">
+                            </div>
+                        </div>
+
+                        <div class="product-description">
+                            <!-- title -->
+                            <h1 class="product-description__title">
+                                <a href="#">
+                                    Casita de muñecas
+                                </a>
+                            </h1>
+
+                            <!-- category and price -->
+                            <div class="row">
+                                <div class="col-sm-8 product-description__category secondary-text">
+                                    Colores Alternativos disponibles
+                                </div>
+                                <div class="col-sm-4 product-description__price text-right">
+                                    $ 4000
+                                </div>
+                            </div>
+
+                            <!-- divider -->
+                            <hr />
+
+                            <!-- sizes -->
+                            <!--<div class="sizes-wrapper">
+                                <b>Sizes</b>
+                                <br />
+                                <span class="secondary-text text-uppercase">
+                                    <ul class="list-inline">
+                                        <li>xs,</li>
+                                        <li>s,</li>
+                                        <li>sm,</li>
+                                        <li>m,</li>
+                                        <li>l,</li>
+                                        <li>xl,</li>
+                                        <li>xxl</li>
+                                    </ul>
+                                </span>
+                            </div> -->
+                            <!-- colors -->
+                            <div class="color-wrapper">
+                                <b>Colores</b>
+                                <br />
+                                <ul class="list-inline color-list">
+                                    <li class="color-list__item color-list__item--red"></li>
+                                    <li class="color-list__item color-list__item--blue"></li>
+                                    <li class="color-list__item color-list__item--green"></li>
+                                    <li class="color-list__item color-list__item--orange"></li>
+                                    <li class="color-list__item color-list__item--purple"></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </article>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <article class="card-wrapper">
+                        <div class="image-holder">
+                            <a href="#" class="image-holder__link"></a>
+                            <div class="image-liquid image-holder--original" style="background-image: url(../../Content/images/g3.jpg)">
+                            </div>
+                        </div>
+
+                        <div class="product-description">
+                            <!-- title -->
+                            <h1 class="product-description__title">
+                                <a href="#">
+                                    Baul
+                                </a>
+                            </h1>
+
+                            <!-- category and price -->
+                            <div class="row">
+                                <div class="col-sm-8 product-description__category secondary-text">
+                                    Colores alternativos disponibles
+                                </div>
+                                <div class="col-sm-4 product-description__price text-right">
+                                    $ 6000
+                                </div>
+                            </div>
+
+                            <!-- divider -->
+                            <hr />
+
+                            <!-- sizes -->
+                            <!--<div class="sizes-wrapper">
+                                <b>Sizes</b>
+                                <br />
+                                <span class="secondary-text text-uppercase">
+                                    <ul class="list-inline">
+                                        <li>xs,</li>
+                                        <li>s,</li>
+                                        <li>sm,</li>
+                                        <li>m,</li>
+                                        <li>l,</li>
+                                        <li>xl,</li>
+                                        <li>xxl</li>
+                                    </ul>
+                                </span>
+                            </div>-->
+                            <!-- colors -->
+                            <div class="color-wrapper">
+                                <b>Colores</b>
+                                <br />
+                                <ul class="list-inline color-list">
+                                    <li class="color-list__item color-list__item--red"></li>
+                                    <li class="color-list__item color-list__item--blue"></li>
+                                    <li class="color-list__item color-list__item--green"></li>
+                                    <li class="color-list__item color-list__item--orange"></li>
+                                    <li class="color-list__item color-list__item--purple"></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </article>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <article class="card-wrapper">
+                        <div class="image-holder">
+                            <a href="#" class="image-holder__link"></a>
+                            <div class="image-liquid image-holder--original" style="background-image: url(../../Content/images/about-img.jpg)">
+                            </div>
+                        </div>
+
+                        <div class="product-description">
+                            <!-- title -->
+                            <h1 class="product-description__title">
+                                <a href="#">
+                                    Mesas y sillas
+                                </a>
+                            </h1>
+
+                            <!-- category and price -->
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-8 product-description__category secondary-text">
+                                    Colores alternativos disponibles
+                                </div>
+                                <div class="col-xs-12 col-sm-4 product-description__price">
+                                    $ 2000
+                                </div>
+                            </div>
+
+                            <!-- divider -->
+                            <hr />
+
+                            <!-- sizes -->
+                            <!-- <div class="sizes-wrapper">
+                                <b>Sizes</b>
+                                <br />
+                                <span class="secondary-text text-uppercase">
+                                    <ul class="list-inline">
+                                        <li>xs,</li>
+                                        <li>s,</li>
+                                        <li>sm,</li>
+                                        <li>m,</li>
+                                        <li>l,</li>
+                                        <li>xl,</li>
+                                        <li>xxl</li>
+                                    </ul>
+                                </span>
+                            </div>!-->
+                            <!-- colors -->
+                            <div class="color-wrapper">
+                                <b>Colores</b>
+                                <br />
+                                <ul class="list-inline color-list">
+                                    <li class="color-list__item color-list__item--red"></li>
+                                    <li class="color-list__item color-list__item--blue"></li>
+                                    <li class="color-list__item color-list__item--green"></li>
+                                    <li class="color-list__item color-list__item--orange"></li>
+                                    <li class="color-list__item color-list__item--purple"></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </article>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <article class="card-wrapper">
+                        <div class="image-holder">
+                            <a href="#" class="image-holder__link"></a>
+                            <div class="image-liquid image-holder--original" style="background-image: url(../../Content/images/g2.jpg)">
+                            </div>
+                        </div>
+
+                        <div class="product-description">
+                            <!-- title -->
+                            <h1 class="product-description__title">
+                                <a href="#">
+                                    Casita de muñecas
+                                </a>
+                            </h1>
+
+                            <!-- category and price -->
+                            <div class="row">
+                                <div class="col-sm-8 product-description__category secondary-text">
+                                    Colores Alternativos disponibles
+                                </div>
+                                <div class="col-sm-4 product-description__price text-right">
+                                    $ 4000
+                                </div>
+                            </div>
+
+                            <!-- divider -->
+                            <hr />
+
+                            <!-- sizes -->
+                            <!--<div class="sizes-wrapper">
+                                <b>Sizes</b>
+                                <br />
+                                <span class="secondary-text text-uppercase">
+                                    <ul class="list-inline">
+                                        <li>xs,</li>
+                                        <li>s,</li>
+                                        <li>sm,</li>
+                                        <li>m,</li>
+                                        <li>l,</li>
+                                        <li>xl,</li>
+                                        <li>xxl</li>
+                                    </ul>
+                                </span>
+                            </div> -->
+                            <!-- colors -->
+                            <div class="color-wrapper">
+                                <b>Colores</b>
+                                <br />
+                                <ul class="list-inline color-list">
+                                    <li class="color-list__item color-list__item--red"></li>
+                                    <li class="color-list__item color-list__item--blue"></li>
+                                    <li class="color-list__item color-list__item--green"></li>
+                                    <li class="color-list__item color-list__item--orange"></li>
+                                    <li class="color-list__item color-list__item--purple"></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </article>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <article class="card-wrapper">
+                        <div class="image-holder">
+                            <a href="#" class="image-holder__link"></a>
+                            <div class="image-liquid image-holder--original" style="background-image: url(../../Content/images/g3.jpg)">
+                            </div>
+                        </div>
+
+                        <div class="product-description">
+                            <!-- title -->
+                            <h1 class="product-description__title">
+                                <a href="#">
+                                    Baul
+                                </a>
+                            </h1>
+
+                            <!-- category and price -->
+                            <div class="row">
+                                <div class="col-sm-8 product-description__category secondary-text">
+                                    Colores alternativos disponibles
+                                </div>
+                                <div class="col-sm-4 product-description__price text-right">
+                                    $ 6000
+                                </div>
+                            </div>
+
+                            <!-- divider -->
+                            <hr />
+
+                            <!-- sizes -->
+                            <!--<div class="sizes-wrapper">
+                                <b>Sizes</b>
+                                <br />
+                                <span class="secondary-text text-uppercase">
+                                    <ul class="list-inline">
+                                        <li>xs,</li>
+                                        <li>s,</li>
+                                        <li>sm,</li>
+                                        <li>m,</li>
+                                        <li>l,</li>
+                                        <li>xl,</li>
+                                        <li>xxl</li>
+                                    </ul>
+                                </span>
+                            </div>-->
+                            <!-- colors -->
+                            <div class="color-wrapper">
+                                <b>Colores</b>
+                                <br />
+                                <ul class="list-inline color-list">
+                                    <li class="color-list__item color-list__item--red"></li>
+                                    <li class="color-list__item color-list__item--blue"></li>
+                                    <li class="color-list__item color-list__item--green"></li>
+                                    <li class="color-list__item color-list__item--orange"></li>
+                                    <li class="color-list__item color-list__item--purple"></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </article>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <footer class="container-fluid">
+        <form action="" method="post">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 footer1 d-flex wow bounceInLeft" data-wow-delay=".25s">
+                        <div class="d-flex flex-wrap align-content-center">
+                            <a href="#"><img src="~/Content/images/logo.png" alt="logo" /></a>
+                            <p>&copy; 2020 Colirin. Todos los derechos reservados<br></p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 footer2 wow bounceInUp" data-wow-delay=".25s" id="contact">
+                        <div class="form-box">
+                            <h4>Contactanos</h4>
+                            <table class="table table-responsive d-table">
+                                <tr>
+                                    <td><input type="text" class="form-control pl-0" id="txbNombre" name="txbNombre" placeholder="NOMBRE" /></td>
+                                    <td><input type="email" class="form-control pl-0" id="txbMail" name="txbMail" placeholder="MAIL" /></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2"></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2"><input type="text" class="form-control pl-0" id="txbTelefono" name="txbTelefono" placeholder="TELEFONO" /></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2"></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2"><input type="text" class="form-control pl-0" id="txbMensaje" name="txbMensaje" placeholder="MENSAJE" /></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2"></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" class="text-center pl-0"><button type="submit" class="btn btn-dark">ENVIAR</button></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="col-md-3 footer3 wow bounceInRight" data-wow-delay=".25s">
+                        <h5>UBICACIÓN</h5>
+                        <p>El Talar, Tigre. Buenos Aires </p>
+                        <h5>TELEFONO</h5>
+                        <p>11 5731-3014</p>
+                        <h5>EMAIL</h5>
+                        <p>Colorin.Muebleria@gmail.com</p>
+                        <div class="social-links">
+                            <ul class="nav nav-item">
+                                <li><a href="https://www.facebook.com/fh5co" class="btn btn-secondary mr-1 mb-2"><img src="~/Content/images/facebook.png" alt="facebook" /></a></li>
+                                <li><a href="#" class="btn btn-secondary mr-1 ml-1 mb-2"><img src="~/Content/images/facebook.png" alt="facebook" /></a></li>
+                                <li><a href="#" class="btn btn-secondary mr-1 ml-1 mb-2"><img src="~/Content/images/facebook.png" alt="facebook" /></a></li>
+                                <li><a href="#" class="btn btn-secondary ml-1 mb-2"><img src="~/Content/images/facebook.png" alt="facebook" /></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Bootstrap JS, ... -->
+
+    <script src="~/Content/js/jquery.min.js"></script>
+    <script src="~/Content/js/bootstrap.min.js"></script>
+    <script src="~/Content/js/parallax.js"></script>
+    <script src="~/Content/js/wow.js"></script>
+    <script src="~/Content/js/main.js"></script>
+
+</body>
+</html>
+
